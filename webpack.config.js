@@ -28,6 +28,10 @@ module.exports = {
     new HtmlWebpackPlugin({
         filename: 'index.html',
         template: 'index.html'
-    })
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'this-es5.html',
+      template: 'src/this-es5.html'
+  })
   ]
 };
