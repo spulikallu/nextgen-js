@@ -12,6 +12,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+/*
+var button = document.getElementById('submitBtn');
+button.addEventListener('click', () => {
+  this.classList.toggle('on');
+});
+*/
+var button = document.getElementById('submitBtn');
+button.addEventListener('click', function(){
+  this.classList.toggle('on');
+});
+
 
 var obj = {
   display: function(){
